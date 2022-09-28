@@ -22,11 +22,6 @@ pipeline {
                 sh 'mvn package'
             }
         }
-                stage('test') {
-            steps {
-                echo 'test'
-            }
-        }
                 stage('develop') {
             steps {
                 echo 'test'
